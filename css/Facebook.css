@@ -1,0 +1,509 @@
+/* FB User Profile */
+
+position: relative;
+width: 375px;
+height: 812px;
+
+background: #FFFFFF;
+
+
+/* Back */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 15px;
+top: 13px;
+
+background: url(BACK.png), #FFFFFF;
+
+
+/* Search Bar */
+
+position: absolute;
+width: 259px;
+height: 27px;
+left: 60px;
+top: 13px;
+
+background: #9E6A6A;
+
+
+/* Menu */
+
+position: absolute;
+width: 26px;
+height: 27px;
+left: 336px;
+top: 13px;
+
+background: url(menu.png), #FFFFFF;
+
+
+/* Cover */
+
+position: absolute;
+width: 347px;
+height: 86px;
+left: 15px;
+top: 56px;
+
+background: #000000;
+
+
+/* Profile Picture */
+
+position: absolute;
+width: 85px;
+height: 85px;
+left: 23px;
+top: 109px;
+
+background: url(user.png), #E5E5E5;
+
+
+/* User Name */
+
+position: absolute;
+width: 70px;
+height: 16px;
+left: 117px;
+top: 120px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+
+
+
+/* Lives in */
+
+position: absolute;
+width: 37px;
+height: 13px;
+left: 117px;
+top: 151px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Toronto, ON */
+
+position: absolute;
+width: 59px;
+height: 13px;
+left: 163px;
+top: 151px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* From */
+
+position: absolute;
+width: 26px;
+height: 13px;
+left: 116px;
+top: 174px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Mohali, India */
+
+position: absolute;
+width: 64px;
+height: 13px;
+left: 162px;
+top: 174px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Joined */
+
+position: absolute;
+width: 34px;
+height: 13px;
+left: 260px;
+top: 151px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Oct 2010 */
+
+position: absolute;
+width: 41px;
+height: 12px;
+left: 306px;
+top: 151px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Followed By */
+
+position: absolute;
+width: 59px;
+height: 13px;
+left: 116px;
+top: 197px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* 561 People */
+
+position: absolute;
+width: 56px;
+height: 13px;
+left: 188px;
+top: 197px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* See Your About Info */
+
+position: absolute;
+width: 98px;
+height: 13px;
+left: 260px;
+top: 171px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Search */
+
+position: absolute;
+width: 37px;
+height: 14px;
+left: 79px;
+top: 20px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 103px;
+height: 16px;
+left: 259px;
+top: 197px;
+
+background: #7B86EF;
+
+
+/* Edit Public Details */
+
+position: absolute;
+width: 85px;
+height: 11px;
+left: 272px;
+top: 201px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+
+color: #FFFFFF;
+
+
+
+/* Friends */
+
+position: absolute;
+width: 350px;
+height: 131px;
+left: 13px;
+top: 242px;
+
+background: rgba(229, 229, 229, 0.26);
+
+
+/* See All */
+
+position: absolute;
+width: 37px;
+height: 14px;
+left: 318px;
+top: 242px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #3B5EB9;
+
+
+
+/* See All */
+
+position: absolute;
+width: 37px;
+height: 14px;
+left: 318px;
+top: 390px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #3B5EB9;
+
+
+
+/* Stories */
+
+position: absolute;
+width: 350px;
+height: 131px;
+left: 12px;
+top: 386px;
+
+background: rgba(196, 196, 196, 0.15);
+
+
+/* Timeline */
+
+position: absolute;
+width: 350px;
+height: 131px;
+left: 12px;
+top: 534px;
+
+background: rgba(196, 196, 196, 0.19);
+
+
+/* Create */
+
+position: absolute;
+width: 45px;
+height: 69px;
+left: 319px;
+top: 748px;
+
+
+
+/* Group 1 */
+
+position: absolute;
+width: 45px;
+height: 44.16px;
+left: 319px;
+top: 755.29px;
+
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 45px;
+height: 44.16px;
+left: 319px;
+top: 755.29px;
+
+background: #7B86EF;
+
+
+/* + */
+
+position: absolute;
+width: 29.45px;
+height: 69px;
+left: 327.49px;
+top: 748px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 200;
+font-size: 50px;
+line-height: 59px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 83px;
+height: 97px;
+left: 29px;
+top: 267px;
+
+background: #C4C4C4;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 83px;
+height: 97px;
+left: 147px;
+top: 267px;
+
+background: #C4C4C4;
+
+
+/* Friends */
+
+position: absolute;
+width: 40px;
+height: 14px;
+left: 21px;
+top: 242px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Stories */
+
+position: absolute;
+width: 38px;
+height: 14px;
+left: 20px;
+top: 390px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Timeline */
+
+position: absolute;
+width: 46px;
+height: 14px;
+left: 19px;
+top: 541px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 83px;
+height: 97px;
+left: 257px;
+top: 267px;
+
+background: #C4C4C4;
