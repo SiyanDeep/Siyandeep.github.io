@@ -133,6 +133,9 @@ p{
     width: 100%;
     left: 0;
 }
+.feed{
+    margin-bottom: 3em;
+}
 @media(min-width:768px)
 {
     .first-section
