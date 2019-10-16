@@ -8,7 +8,6 @@ body{
     /* font-family: 'Dosis', sans-serif; */
     font-family: 'Grenze', serif;
 }
-
 .icon{
     height: 2em;
     widows: 3em;
@@ -40,12 +39,12 @@ body{
     left: 1em;
     top: 9em;
 }
-.uname{
+.username{
     position: absolute;
-    left: 7em;
-    top: 9em;
+    left: 5em;
+    top: 5.9em;
     color: white;
-    font-size: 1.17em;
+    font-size: 1.6em;
 }
 .content{
     display: grid;
@@ -54,14 +53,14 @@ body{
     padding: 0.5em 2em;
 }
 .story{
-    height: 30vh;
-    width: 20vh;
+    height: 18em;
+    width: 13em;
     border-radius: 18px;
 }
 .friends
 {
-    height: 15vh;
-    width: 15vh;
+    height: 8em;
+    width: 8em;
     border-radius: 18px;
 }
 .txt{
@@ -70,26 +69,26 @@ body{
     margin-top: 0.5em;
     font-size: 0.9em;
 }
-.micon{
+.menuicon{
     padding-left: 5vh;
     padding-right: 1vh;
 }
-.bicon{
+.backicon{
     padding-left: 2vh;
 }
-.stry{
+.contentbackground{
     margin-top: 1em;
-    background-image: url(../img/stry.jpg);
+    background-color: lightgray;
+    position: relative;
+    width: 100%;
+    left: 0;
 }
-.lnk{
+.link{
     position: absolute;
     right: 1vh;
     font-size: medium;
-}
-.st{
     top: .5vh;
 }
-
 .sticky{
     position: fixed;
     padding: 1em 1.2em;
@@ -101,20 +100,19 @@ body{
     border: black thin;
     border-radius: 35px;
 }
-.tt{
-    padding-top: .4em;
+.contentheading{
+    font-size: 1.5em;
+    padding-left: 0.5em;
 }
 .tabbedview{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 .tabicon{
-    /* background-color: blueviolet; */
     height: 4vh;
     width: 4vh;
     padding-left: 2em;;
     padding-top: .4em;
-    /* padding-bottom: 1em; */
 }
 .tabbar{
     position: fixed;
@@ -122,16 +120,8 @@ body{
     bottom: 0vh;
     background-color: #3D5B99;
 }
-p{
-    padding-left: 0.5em;
-}
-.ct{
-    position: relative;
-    width: 100%;
-    left: 0;
-}
 .feed{
-    margin-bottom: 3em;
+    margin-bottom: 2.8em;
 }
 @media(min-width:768px)
 {
@@ -140,15 +130,18 @@ p{
         grid-template-columns: 2fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         margin: 0% 0%;
     }
+    .friendsview{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
 }
 @media(max-width:500px)
 {
     .second-section
     {
         grid-template-columns: 1fr 1fr;
-        /* margin: 0% 0%; */
     }
-    .timg{
+    .hiddencontent{
         display: none;
     }
 }
