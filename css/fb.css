@@ -1,54 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Grenze&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-/* .us{
-    position: relative;
-    width: 375px;
-    height: 812px;
-} */
+body{
+    /* font-family: 'Dosis', sans-serif; */
+    font-family: 'Grenze', serif;
+}
+
 .icon{
-    height: 2.5vh;
-    widows: 3.5vh;
+    height: 2em;
+    widows: 3em;
 }
 .header{
     position: fixed;
-    /* position: relative; */
     width: 100%;
     top: 0vh;
     background-color: #3D5B99;
-    /* height: 3vh; */
     padding: .5vh;
 }
 
 .input{
     border-radius: 10px;
     opacity: 0.9;
-    /* background-color: aqua; */
 }
 .menu{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    /* width: 100%; */
 }
 .cover{
-    /* position: absolute; */
     width: 100%;
-    height: 15vh;
+    height: 12em;
 }
 .user{
     position: absolute;
-    width: 10vh;
-    height: 10vh;
-    left: 2.5vh;
-    top: 8.5vh;
+    width: 6em;
+    height: 6em;
+    left: 1em;
+    top: 9em;
 }
 .uname{
     position: absolute;
-    left: 15vh;
-    top: 11vh;
+    left: 7em;
+    top: 9em;
     color: white;
-    font-size: 1.15em;
+    font-size: 1.17em;
 }
 .content{
     display: grid;
