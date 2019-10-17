@@ -48,7 +48,7 @@ body{
 }
 .content{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1em;
     padding: 0.5em 2em;
 }
@@ -127,11 +127,11 @@ body{
 {
     .first-section
     {
-        grid-template-columns: 2fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 3fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         margin: 0% 0%;
     }
     .changefriendsview{
-        display: grid;
+        /* display: grid; */
         grid-template-columns: 1fr 1fr 1fr;
         /* grid-gap: 1em; */
     }
