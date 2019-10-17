@@ -130,9 +130,20 @@ body{
         grid-template-columns: 2fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         margin: 0% 0%;
     }
-    .friendsview{
+    /* .friendsview{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    } */
+    .changefriendsview{
+        /* display: none; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .friendsgrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+}
     }
 }
 @media(max-width:500px)
