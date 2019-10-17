@@ -130,19 +130,15 @@ body{
         grid-template-columns: 2fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         margin: 0% 0%;
     }
-    /* .friendsview{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    } */
     .changefriendsview{
-        /* display: none; */
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        /* grid-gap: 1em; */
     }
     .friendsgrid{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 2em;
+        grid-gap: 1em;
 }
     }
 }
@@ -153,6 +149,8 @@ body{
         grid-template-columns: 1fr 1fr;
     }
     .hiddencontent{
-        display: none;
+        position: absolute;
+        visibility:hidden;
+        display: none !important;
     }
 }
