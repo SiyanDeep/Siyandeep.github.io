@@ -10,14 +10,17 @@ body{
 }
 .icon{
     height: 2em;
-    widows: 3em;
+    width: 3em;
 }
 .header{
     position: fixed;
+    /* position: sticky; */
+    /* position: relative; */
     width: 100%;
     top: 0vh;
     background-color: #3D5B99;
     padding: .5vh;
+    z-index: 1;
 }
 
 .input{
@@ -34,6 +37,7 @@ body{
 }
 .user{
     position: absolute;
+    /* position: sticky; */
     width: 6em;
     height: 6em;
     left: 1em;
@@ -51,11 +55,13 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1em;
     padding: 0.5em 2em;
+    overflow: hidden;
 }
 .story{
     height: 18em;
     width: 13em;
     border-radius: 18px;
+    overflow: hidden;
 }
 .friends
 {
@@ -72,9 +78,15 @@ body{
 .menuicon{
     padding-left: 5vh;
     padding-right: 1vh;
+    /* text-align: right; */
+
+}
+.hd{
+    overflow: hidden;
 }
 .backicon{
     padding-left: 2vh;
+    width: 1em;
 }
 .contentbackground{
     margin-top: 1em;
@@ -123,6 +135,7 @@ body{
 .feed{
     margin-bottom: 2.8em;
 }
+
 @media(min-width:768px)
 {
     .first-section
@@ -139,8 +152,14 @@ body{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1em;
-}
     }
+    .contentmargin{
+        margin: 0 10vh;
+    }
+    .fnew{
+        margin-bottom: 3.2em;
+    }
+}
 
 @media(max-width:500px)
 {
