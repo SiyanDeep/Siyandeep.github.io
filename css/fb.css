@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Dosis&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Grenze&display=swap');
 *{
     margin: 0;
@@ -133,9 +133,9 @@ body{
     bottom: 0vh;
     background-color: #3D5B99;
 }
-.feed{
+/* .feed{
     margin-bottom: 2.8em;
-}
+} */
 .friendlinks{
     background-color: darkgrey;
     margin: 0 0.2em 0 0.2em;
