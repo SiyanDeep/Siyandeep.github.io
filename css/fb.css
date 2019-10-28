@@ -133,9 +133,42 @@ body{
     bottom: 0vh;
     background-color: #3D5B99;
 }
-/* .feed{
-    margin-bottom: 2.8em;
-} */
+.post{
+    position: relative;
+    top: 2em;
+    left: 1.5em;
+    height: 3em;
+    widows: 3em;
+}
+.userpost{
+    position: relative;
+    top: -1em;
+    left: 3em;
+}
+.posttxt{
+    position: relative;
+    top: 0em;
+    left: 5.5em;
+    /* opacity: 0.9; */
+    /* text-decoration: underline; */
+    font-size: 1.1em;
+    width: 90%;
+    background-color: lightcyan;
+}
+hr{
+    position: relative;
+    left: 6em;
+    width: 90%;
+    border-top: 1px solid black;
+}
+.postbutton{
+    color: white;
+    background-color: blueviolet;
+    margin-top: 2em;
+    margin-left: 90%;
+    padding: 0.6em 1.4em;
+}
+
 .friendlinks{
     background-color: darkgrey;
     margin: 0 0.2em 0 0.2em;
